@@ -5,6 +5,10 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'aboreto': ['Aboreto'],
+      'anton': ['Anton'],
+    },
     extend: {},
   },
   plugins: [],
