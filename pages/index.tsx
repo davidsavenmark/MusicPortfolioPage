@@ -1,7 +1,7 @@
 
 const index = () => {
   return (
-    <h1>EP2 in progress</h1>
+    <h1 className="p-4 justify-start">EP2 in progress</h1>
   )
 }
 
