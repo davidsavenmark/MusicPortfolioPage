@@ -8,6 +8,7 @@ module.exports = {
     fontFamily: {
       'aboreto': ['Aboreto'],
       'anton': ['Anton'],
+      'poppins': ['Poppins'],
     },
     extend: {},
   },
