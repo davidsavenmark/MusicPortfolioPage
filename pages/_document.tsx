@@ -9,7 +9,7 @@ class MyDocument extends Document {
             <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Anton&family=Poppins&display=swap" rel="stylesheet"/>
          
             </Head>
-            <body className='bg-gradient-to-r from-blue-200 to-gray-400'>
+            <body className='bg-gradient-to-r from-purple-100 to-orange-300'>
               <Main />
               <NextScript />
             </body>

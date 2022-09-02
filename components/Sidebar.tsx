@@ -10,26 +10,33 @@ const Sidebar = () => {
             <img
                 src="https://scontent-arn2-1.xx.fbcdn.net/v/t39.30808-6/277350139_338827658285184_8942894879981920547_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hRToecrtXy4AX-qwpj5&_nc_ht=scontent-arn2-1.xx&oh=00_AT9C1uowSNSijtji6DMSUpgA3iN1oM9kscyUIe1c3byg7A&oe=6312AE36"
                 alt="user-avatar"
-                className='w-32 h-32 rounded-full mx-auto'
+                className='w-32 h-32 rounded-full mx-auto '
             />
             <h3 className='my-4 text-3xl font-medium tracking-wider font-aboreto'>
                 <span>Sinemark </span>
             </h3>
-            <p className='px-2 py-1 my-3 bg-purple-200 rounded-full font-poppins'>
+            <p className='px-2 py-1 my-3 font-poppins'>
                 Artist & Musician
             </p>
 
-            <a href="https://open.spotify.com/album/4k2IYJ8yKjtFiZjLpviF37?si=3i8_IvRmT8yb8C_wT_9ipA&fbclid=IwAR1KfxEiuK99QmYyNuJvFr52_VUa_mku8urVRQHmStPqL2oAuxW2JdsqHzc&nd=1" target="_blank">
-                <p className='px-2 py-1 my-3 bg-gray-300 rounded-full cursor-pointer font-poppins'>Stream now</p>
+            <a href="https://open.spotify.com/album/4k2IYJ8yKjtFiZjLpviF37?si=3i8_IvRmT8yb8C_wT_9ipA&fbclid=IwAR1KfxEiuK99QmYyNuJvFr52_VUa_mku8urVRQHmStPqL2oAuxW2JdsqHzc&nd=1" target="_blank" rel="noreferrer">
+                <p className='px-2 py-1 my-3 bg-gray-300 opacity-80 rounded-full cursor-pointer font-poppins hover:scale-105'>Stream now</p>
             </a>
 
             {/*Socials*/}
             <div>
-                <a href="" className='flex items-center m-5 justify-evenly text-blue-500'>
-                    <ImSpotify className='w-6 h-8' />
-                    <ImYoutube className='w-6 h-8' />
-                    <SiApplemusic className='w-6 h-8' />
-                </a>
+                <p className='flex items-center m-5 justify-evenly '>
+                    <a href="https://open.spotify.com/album/4k2IYJ8yKjtFiZjLpviF37?si=3i8_IvRmT8yb8C_wT_9ipA&fbclid=IwAR1KfxEiuK99QmYyNuJvFr52_VUa_mku8urVRQHmStPqL2oAuxW2JdsqHzc&nd=1" target="_blank" rel="noreferrer">
+                        <ImSpotify className='w-6 h-8 hover:scale-125 text-green-600' />
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=IotBQAzTMCc&list=PL7T9moZCZP_nkMsW9c2VtL-7JHGmv73LP" target="_blank" rel="noreferrer">
+                        <ImYoutube className='w-6 h-8 hover:scale-125  text-red-600' />
+                    </a>
+                    <a href="https://music.apple.com/gb/artist/sinemark/1523764689" target="_blank" rel="noreferrer">
+                        <SiApplemusic className='w-6 h-8 hover:scale-125  text-red-00' />
+                    </a>
+
+                </p>
             </div>
 
             <div className='my-5 py-4 bg-gray-200 font-poppins' style={{ marginLeft: '-1rem', marginRight: '-1rem' }}>
@@ -41,7 +48,7 @@ const Sidebar = () => {
             </div>
             {/* Email button*/}
             <div className='font-poppins'>
-                <button className='bg-blue-300 w-9/12 rounded-full py-2 px-5 my-2 focus:outline-none' onClick={() => window.open('mailto:sinemark1@gmail.com')}>Contact Me</button>
+                <button className='bg-blue-300 w-9/12 rounded-full py-2 px-5 my-2 focus:outline-none hover:scale-105' onClick={() => window.open('mailto:sinemark1@gmail.com')}>Contact Me</button>
                 <button className='bg-gradient-to-r from-cyan-200 to-orange-200 w-9/12 rounded-full py-2 px-5 my-2'>Theme</button>
 
             </div>
