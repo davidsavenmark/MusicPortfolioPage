@@ -10,12 +10,16 @@
   },
   "dependencies": {
     "next": "12.2.5",
+    "next-themes": "^0.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-easy-swipe": "^0.0.22",
     "react-icons": "^4.4.0",
     "react-player": "^2.10.1",
+    "react-responsive-carousel": "^3.2.23",
     "react-youtube": "^9.0.3",
-    "react-youtube-playlist": "^2.2.8"
+    "react-youtube-playlist": "^2.2.8",
+    "swiper": "^8.3.2"
   },
   "devDependencies": {
     "@types/node": "^18.7.13",

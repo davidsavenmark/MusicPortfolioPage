@@ -3,7 +3,7 @@ import{GiGuitar} from 'react-icons/gi'
 import{RiComputerFill} from 'react-icons/ri'
 import {CgPiano} from 'react-icons/cg'
 import {GiGuitarBassHead} from 'react-icons/gi'
-import { IService, IVideos } from './type'
+import { IService,} from './type'
 import { YouTubePlayer } from 'react-youtube'
 
 
@@ -11,13 +11,13 @@ export const services: IService[] = [
 
     {
         title:"Beats/Drums",
-        about:"I produce beats/arrange drums inside my DAW",
+        about:"I produce beats/arrange drums inside my DAW.",
         Icon: RiComputerFill,
     },
     {
         title: "Bass",
-        about:"I play electric bass to both my music and to other songs",
-        Icon: RiComputerFill,
+        about:"I play electric bass to both my music and to other songs.",
+        Icon: GiGuitarBassHead,
     },
     {
         title: "Piano",
@@ -26,17 +26,17 @@ export const services: IService[] = [
     },
     {
         title: "Guitar",
-        about:"I also play both electric and acoustic guitar",
+        about:"I play both electric and acoustic guitar.",
         Icon: GiGuitar,
     },
 ]
 
-export const videos: IVideos[] = [
-    {
-        title:'Analogy',
-        about:'First song from the EP Patterns',
-        video: YouTubePlayer('IotBQAzTMCc'),
+// export const videos: IVideos[] = [
+//     {
+//         title:'Analogy',
+//         about:'First song from the EP Patterns',
+//         video: {src=''},
 
-    },
-]
+//     },
+// ]
 

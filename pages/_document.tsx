@@ -6,10 +6,10 @@ class MyDocument extends Document {
             <Head>
             <link rel="preconnect" href="https://fonts.googleapis.com"></link>
             <link rel="preconnect" href="https://fonts.gstatic.com"></link>
-            <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Anton&family=Poppins&display=swap" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Anton&family=Poppins&family=Roboto&display=swap" rel="stylesheet"/>
          
             </Head>
-            <body className='bg-gradient-to-r from-purple-100 to-orange-300'>
+            <body className='bg-gradient-to-r from-indigo-200 to-black'>
               <Main />
               <NextScript />
             </body>

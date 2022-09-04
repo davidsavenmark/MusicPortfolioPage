@@ -12,7 +12,7 @@ const NavItem: FunctionComponent<{
         activeItem !== name ? (
             <Link href={route}>
                 <a >
-                    <span onClick={()=>setActiveItem(name)} className='hover:text-orange-500 p-5'>{name}</span>
+                    <span onClick={()=>setActiveItem(name)} className='hover:text-red-500 p-5'>{name}</span>
                 </a>
             </Link>
         ): null
@@ -21,20 +21,19 @@ const NavItem: FunctionComponent<{
 
 const Navbar = () => {
     const [activeItem, setActiveItem] = useState<string>('')
-
     const { pathname } = useRouter()    
 
     useEffect(()=> {
-    if(pathname ==="/")setActiveItem('About')
-    else if(pathname ==="/soloprojects")setActiveItem('Solo-Projects')
+    if(pathname ==="/")setActiveItem('Home')
+    else if(pathname ==="/soloprojects")setActiveItem('Solo')
     else if(pathname ==="/collaborations")setActiveItem('Collaborations')
     },[])
     return (
-        <div className="flex justify-between px-5 py-3 my-3 font-poppins">
-            <span className='font-bold text-orange-500 border-orange-500 md:text-2xl text-xl border-b-4'>{activeItem}</span>
-            <div className='text-cyan-500 text-lg flex'>
-            <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="About" route='/'/>
-            <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="Solo-Projects" route='/soloprojects'/>
+        <div className="flex justify-between px-4 py-3 my-3 font-poppins">
+            <span className='font-bold text-red-500 border-red-500 md:text-2xl sm:text-3-xl border-b-4 tracking-wide'>{activeItem}</span>
+            <div className='text-black text-lg sm:text-xl '>
+            <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="Home" route='/'/>
+            <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="Solo" route='/soloprojects'/>
             <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="Collaborations" route='/collaborations'/>
             </div>
         </div>

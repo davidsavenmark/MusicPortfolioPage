@@ -6,8 +6,7 @@ export interface IService{
     about:string,
     Icon: IconType,
 }
-export interface IVideos{
-    title:string,
-    about:string,
-    video:YouTubeProps,
-}
+// export interface IVideos{
+//     title:string,
+//     video:
+// }

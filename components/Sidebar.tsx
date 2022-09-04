@@ -3,14 +3,22 @@ import { ImSpotify, ImYoutube } from 'react-icons/im'
 import { SiApplemusic } from 'react-icons/si'
 import { GoLocation } from 'react-icons/go'
 import { GiTie } from 'react-icons/gi'
+import {useTheme} from 'next-themes'
 
 const Sidebar = () => {
+    const {theme,setTheme} = useTheme();
+
+    const changeTheme = ()=>{
+        setTheme(theme ==="light" ? "dark" : "light")
+    }
+
     return (
         <div>
+        
             <img
                 src="https://scontent-arn2-1.xx.fbcdn.net/v/t39.30808-6/277350139_338827658285184_8942894879981920547_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hRToecrtXy4AX-qwpj5&_nc_ht=scontent-arn2-1.xx&oh=00_AT9C1uowSNSijtji6DMSUpgA3iN1oM9kscyUIe1c3byg7A&oe=6312AE36"
                 alt="user-avatar"
-                className='w-32 h-32 rounded-full mx-auto '
+                className='w-32 h-32 rounded-full mx-auto shadow-lg shadow-black'
             />
             <h3 className='my-4 text-3xl font-medium tracking-wider font-aboreto'>
                 <span>Sinemark </span>
@@ -20,12 +28,12 @@ const Sidebar = () => {
             </p>
 
             <a href="https://open.spotify.com/album/4k2IYJ8yKjtFiZjLpviF37?si=3i8_IvRmT8yb8C_wT_9ipA&fbclid=IwAR1KfxEiuK99QmYyNuJvFr52_VUa_mku8urVRQHmStPqL2oAuxW2JdsqHzc&nd=1" target="_blank" rel="noreferrer">
-                <p className='px-2 py-1 my-3 bg-gray-300 opacity-80 rounded-full cursor-pointer font-poppins hover:scale-105'>Stream now</p>
+                <p className='px-2 py-1 my-3 bg-gray-300 opacity-80 rounded-full cursor-pointer font-poppins hover:scale-105 shadow-lg  shadow-orange-200'>Stream now</p>
             </a>
 
             {/*Socials*/}
             <div>
-                <p className='flex items-center m-5 justify-evenly '>
+                <p className='flex items-center m-5 justify-evenly shadow-lg shadow-indigo-200 rounded-full'>
                     <a href="https://open.spotify.com/album/4k2IYJ8yKjtFiZjLpviF37?si=3i8_IvRmT8yb8C_wT_9ipA&fbclid=IwAR1KfxEiuK99QmYyNuJvFr52_VUa_mku8urVRQHmStPqL2oAuxW2JdsqHzc&nd=1" target="_blank" rel="noreferrer">
                         <ImSpotify className='w-6 h-8 hover:scale-125 text-green-600' />
                     </a>
@@ -33,13 +41,13 @@ const Sidebar = () => {
                         <ImYoutube className='w-6 h-8 hover:scale-125  text-red-600' />
                     </a>
                     <a href="https://music.apple.com/gb/artist/sinemark/1523764689" target="_blank" rel="noreferrer">
-                        <SiApplemusic className='w-6 h-8 hover:scale-125  text-red-00' />
+                        <SiApplemusic className='w-6 h-8 hover:scale-125 text-red-600' />
                     </a>
 
                 </p>
             </div>
 
-            <div className='my-5 py-4 bg-gray-200 font-poppins' style={{ marginLeft: '-1rem', marginRight: '-1rem' }}>
+            <div className='my-5 py-4 font-poppins' style={{ marginLeft: '-1rem', marginRight: '-1rem' }}>
                 <div className='flex items-center justify-center space-x-1'>
                     <GoLocation />
                     <span>Stockholm, Sweden</span>
@@ -48,13 +56,18 @@ const Sidebar = () => {
             </div>
             {/* Email button*/}
             <div className='font-poppins'>
-                <button className='bg-blue-300 w-9/12 rounded-full py-2 px-5 my-2 focus:outline-none hover:scale-105' onClick={() => window.open('mailto:sinemark1@gmail.com')}>Contact Me</button>
-                <button className='bg-gradient-to-r from-cyan-200 to-orange-200 w-9/12 rounded-full py-2 px-5 my-2'>Theme</button>
+                <button className='bg-gray-300 w-9/12 rounded-full py-2 px-5 my-2 focus:outline-none hover:scale-105 shadow-md shadow-black' onClick={() => window.open('mailto:sinemark1@gmail.com')}>Contact Me</button>
+
+                {/* <button className='bg-gradient-to-r from-orange-300 to-indigo-200 w-9/12 rounded-full py-2 px-5 my-2 shadow-md shadow-black' onClick={changeTheme}>Toggle Theme</button> */}
 
             </div>
 
 
+        
+        
+        
         </div>
+        
 
     )
 }
