@@ -13,10 +13,10 @@ const index = () => {
         The drums are thicker, sound is overall more up-lifting.
       </h5>
       <h5 className='my-3 font-medium font-poppins'>
-        'Patterns' gave me peace, clarity and most importantly, a reference point.
+        Previous EP 'Patterns' gave me peace, clarity and most importantly, a reference point.
         More videos from this upcoming EP will be released in the near future.
       </h5>
-      <h6 className='my-3 font-small font-poppins'>More music is on the way!</h6>
+      <h6 className='my-3 font-small font-poppins'>More music is on the way! Go to 'Solo' for a quick preview of what I've been working on.</h6>
 
       <div className='p-4 my-5 flex-grow' style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem' }}>
         <h6 className='my-3 font-bold text-xl tracking-wide text-black flex justify-center'>What I'm doing</h6>
@@ -30,8 +30,13 @@ const index = () => {
 
         <Carousel className='p-4' infiniteLoop useKeyboardArrows autoPlay>
           <div>
-            <h2 className='justify-center text-indigo-500'></h2>
+            <img src="../images/sinemark4.png" alt="image4" className='shadow-md shadow-black' />
+          </div>
+          <div>
             <img src="../images/sinemark3.png" alt="image1" className='shadow-md shadow-black' />
+          </div>
+          <div>
+            <img src="../images/sinemark5.png" alt="image5" className='shadow-md shadow-black' />
           </div>
           <div>
             <img src="../images/sinemark2.png" alt="image2" className='shadow-md shadow-black' />
@@ -40,10 +45,7 @@ const index = () => {
             <img src="../images/sinemark1.png" alt="image3" className='shadow-md shadow-black' />
           </div>
           <div>
-            <img src="../images/sinemark4.png" alt="image4" className='shadow-md shadow-black' />
-          </div>
-          <div>
-            <img src="../images/sinemark5.png" alt="image5" className='shadow-md shadow-black' />
+            <img src="../images/sinemark6.png" alt="image5" className='shadow-md shadow-black' />
           </div>
         </Carousel>
 

@@ -151,13 +151,6 @@ const soloprojects = () => {
         <p className="p-3 font-poppins my-8 text-black text-md mb-3 flex justify-center ">
           Preview of some songs from the next EP
         </p>
-        <motion.div
-          animate={{ rotate: 360 }}
-          transition={{
-            repeat: 0,
-            repeatType: "reverse",
-            duration: 1
-          }}>
           <div className='lg:col-span-1 bg-gradient-to-r from-red-200 to-cyan-100 rounded-2xl flex justify-center'>
             <iframe
               width="500"
@@ -170,7 +163,7 @@ const soloprojects = () => {
               className=' p-4 pb-3'>
             </iframe>
           </div>
-        </motion.div>
+       
       </div>
     </div>
   )
