@@ -1,10 +1,8 @@
-import { IconType } from 'react-icons'
 import{GiGuitar} from 'react-icons/gi'
 import{RiComputerFill} from 'react-icons/ri'
 import {CgPiano} from 'react-icons/cg'
 import {GiGuitarBassHead} from 'react-icons/gi'
-import { IService,} from './type'
-import { YouTubePlayer } from 'react-youtube'
+import { IService} from './type'
 
 
 export const services: IService[] = [
@@ -15,28 +13,20 @@ export const services: IService[] = [
         Icon: RiComputerFill,
     },
     {
-        title: "Bass",
+        title:"Bass",
         about:"I play electric bass to both my music and to other songs.",
         Icon: GiGuitarBassHead,
     },
     {
-        title: "Piano",
+        title:"Piano",
         about:"My go-to instrument when it comes to arranging harmonies, chord-progressions etc.",
         Icon: CgPiano,
     },
     {
-        title: "Guitar",
-        about:"I play both electric and acoustic guitar.",
+        title:"Guitar",
+        about:"I play electric and acoustic guitar.",
         Icon: GiGuitar,
     },
 ]
 
-// export const videos: IVideos[] = [
-//     {
-//         title:'Analogy',
-//         about:'First song from the EP Patterns',
-//         video: {src=''},
-
-//     },
-// ]
 

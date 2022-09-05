@@ -6,17 +6,15 @@ const ServiceCard: FunctionComponent<{ service: IService }> = ({
     service: { Icon, about, title },
 }) => {
     return (
-
         <div className="p-2 flex items-center space-x-4">
             <Icon className="w-12 h-12 text-indigo-400"/>
             <div>
                 <h4 className="font-bold">
                     {title}
-                    <p>{about}</p>
+                 <p>{about}</p>
                 </h4>
             </div>
         </div>
-
     )
 }
 

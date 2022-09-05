@@ -2,12 +2,14 @@ import { FunctionComponent, useEffect, useState } from "react"
 import Link from 'next/link'
 import { useRouter } from "next/router"
 
-const NavItem: FunctionComponent<{
+const NavItem: 
+FunctionComponent<{
     activeItem: string,
     setActiveItem: Function,
     name:string,
     route: string
 }> = ({activeItem, name, route, setActiveItem})=> {
+    
     return(
         activeItem !== name ? (
             <Link href={route}>
