@@ -5,13 +5,13 @@ const soloprojects = () => {
   return (
     <div className='p-4 flex flex-col px-6 pt-1 flex-grow '>
       <div className='p-3 my-5 flex-grow ' style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem' }}>
-        <p className="p-3 font-aboreto text-3xl text-black flex justify-center">
+        <p className="p-3 font-aboreto text-3xl flex justify-center  text-white dark:text-black">
           Patterns
         </p>
-        <p className="p-3 font-poppins text-black text-sm mb-3 flex justify-center">
-          Debut EP from 2020, An array of six songs.
+        <p className="p-3 font-poppin text-sm mb-3 flex justify-center text-white dark:text-black">
+          Debut EP from 2020. An array of six songs.
         </p>
-        <p className="p-3 font-poppins text-black text-md mb-3 flex justify-center ">
+        <p className="p-3 font-poppins text-md mb-3 flex justify-center text-white dark:text-black ">
           Listen below
         </p>
 
@@ -112,7 +112,7 @@ const soloprojects = () => {
               repeatType: "reverse",
               duration: 1
             }}>
-            <div className='lg:col-span-1 bg-gradient-to-r from-green-300 to-gray-300 rounded-lg'>
+            <div className='lg:col-span-1 bg-gradient-to-r from-green-300 to-orange-300 rounded-lg'>
               <iframe
                 width="300"
                 height="260"
@@ -133,7 +133,7 @@ const soloprojects = () => {
               repeatType: "reverse",
               duration: 1
             }}>
-            <div className='lg:col-span-1 bg-gradient-to-r from-gray-300 to-red-300 rounded-lg'>
+            <div className='lg:col-span-1 bg-gradient-to-r from-gray-300 to-red-300 rounded-lg '>
               <iframe
                 width="300"
                 height="260"
@@ -148,10 +148,11 @@ const soloprojects = () => {
           </motion.div>
         </div>
 
-        <p className="p-3 font-poppins my-8 text-black text-md mb-3 flex justify-center ">
+        <p className="p-3 font-poppins my-8 text-md mb-3 flex justify-center  text-white dark:text-black ">
           Preview of some songs from the next EP
         </p>
-          <div className='lg:col-span-1 bg-gradient-to-r from-red-200 to-cyan-100 rounded-2xl flex justify-center'>
+        <div className="flex justify-center">
+        <div className='lg:col-span-1 bg-gradient-to-r from-red-200 to-cyan-100 rounded-2xl flex justify-center w-100'>
             <iframe
               width="500"
               height="300"
@@ -160,9 +161,11 @@ const soloprojects = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               loading='lazy'
-              className=' p-4 pb-3'>
+              className=' p-4 pb-3 flex justify-center'>
             </iframe>
           </div>
+        </div>
+         
        
       </div>
     </div>
