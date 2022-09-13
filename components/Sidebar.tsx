@@ -1,30 +1,12 @@
 import { ImSpotify, ImYoutube } from 'react-icons/im'
 import { SiApplemusic } from 'react-icons/si'
 import { GoLocation } from 'react-icons/go'
-import {useTheme} from 'next-themes'
-import { useState, useEffect } from 'react'
+import { useSidebar } from '../hooks/useSidebar'
 
 
 
 const Sidebar = () => {
-    const {theme, setTheme} = useTheme()
-
-    const changeTheme = ()=>{
-        setTheme(theme ==="light" ? "dark" : "light");
-    };
-
-    const [activeButton, setActiveButton] = useState<string>('')
-
-    useEffect(()=> {
-        if(theme)
-        {
-        if(theme ==='light')setActiveButton('Light Theme')
-        else if(theme ==='dark')setActiveButton('Dark Theme')
-
-        }
-
-
-    },[theme])
+    const {changeTheme, activeText} = useSidebar()
 
     return (
         <>
@@ -68,7 +50,6 @@ const Sidebar = () => {
                     </a>
                 </p>
             </div>
-
             <div className='my-5 py-4 font-poppins' style={{ marginLeft: '-1rem', marginRight: '-1rem' }}>
                 <div className='flex items-center justify-center space-x-1 text-white dark:text-black'>
                     <GoLocation />
@@ -89,7 +70,7 @@ const Sidebar = () => {
                 <button onClick={changeTheme} className='bg-gray-300 opacity-80 w-9/12 
                 rounded-full py-1 px-5 my-2 focus:outline-none 
                 hover:scale-105 shadow-md shadow-black hover:text-green-600 text-black dark:text-black'>
-                   {activeButton}
+                   {activeText}
                 </button>
             </div>
         </>

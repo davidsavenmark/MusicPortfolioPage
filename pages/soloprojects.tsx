@@ -20,9 +20,7 @@ const soloprojects = () => {
           <motion.div
             animate={{ rotate: 360 }}
             transition={{
-              repeat: 0,
-              repeatType: "reverse",
-              duration: 1
+            duration: 1
             }}>
             <div className='lg:col-span-1 bg-gradient-to-r from-green-300 to-indigo-200 rounded-lg'>
               <iframe
@@ -42,9 +40,7 @@ const soloprojects = () => {
           <motion.div
             animate={{ rotate: 360 }}
             transition={{
-              repeat: 0,
-              repeatType: "reverse",
-              duration: 1
+            duration: 1
             }}>
             <div className='lg:col-span-1 bg-gradient-to-r from-orange-300 to-cyan-200 rounded-lg'>
               <iframe
@@ -65,9 +61,7 @@ const soloprojects = () => {
           <motion.div
             animate={{ rotate: 360 }}
             transition={{
-              repeat: 0,
-              repeatType: "reverse",
-              duration: 1
+            duration: 1
             }}>
             <div className='lg:col-span-1 bg-gradient-to-r from-red-300 to-indigo-200 rounded-lg'>
               <iframe
@@ -87,9 +81,7 @@ const soloprojects = () => {
           <motion.div
             animate={{ rotate: 360 }}
             transition={{
-              repeat: 0,
-              repeatType: "reverse",
-              duration: 1
+            duration: 1
             }}>
             <div className='lg:col-span-1 bg-gradient-to-r from-indigo-300 to-green-300 rounded-lg'>
               <iframe
@@ -108,9 +100,7 @@ const soloprojects = () => {
           <motion.div
             animate={{ rotate: 360 }}
             transition={{
-              repeat: 0,
-              repeatType: "reverse",
-              duration: 1
+            duration: 1
             }}>
             <div className='lg:col-span-1 bg-gradient-to-r from-green-300 to-orange-300 rounded-lg'>
               <iframe
@@ -129,9 +119,7 @@ const soloprojects = () => {
           <motion.div
             animate={{ rotate: 360 }}
             transition={{
-              repeat: 0,
-              repeatType: "reverse",
-              duration: 1
+            duration: 1
             }}>
             <div className='lg:col-span-1 bg-gradient-to-r from-gray-300 to-red-300 rounded-lg '>
               <iframe

@@ -23,12 +23,13 @@ const index = () => {
         <h6 className='my-3 font-bold text-xl tracking-wide flex justify-center text-white dark:text-black'>What I'm doing</h6>
         <div className='grid lg:grid-cols-2 gap-6'>
           {services.map(service => (
-            <div className='lg:col-span-1 bg-slate-600 dark:bg-gray-200 rounded-lg text-white dark:text-black'>
+            <div className='lg:col-span-1 bg-gray-800 dark:bg-gray-300 rounded-lg text-white dark:text-black'>
               <ServiceCard service={service} />
             </div>
           ))}
         </div>
 
+            {/* image-carousel */}
         <Carousel className='p-4' infiniteLoop useKeyboardArrows autoPlay>
           <div>
             <img src="../images/sinemark4.png" alt="image4" className='shadow-md shadow-black' />
@@ -56,7 +57,6 @@ const index = () => {
 }
 
 export const getStaticProps: GetStaticProps = async (context)=>{
-
   const res = await fetch('http://localhost:3000/api/services')
   const data = await res.json()
 

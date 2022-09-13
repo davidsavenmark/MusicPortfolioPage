@@ -26,16 +26,9 @@ const Navbar = () => {
     const { pathname } = useRouter()    
 
     useEffect(()=> {
-        if(pathname)
-        {
-            if(pathname ==="/")setActiveItem('Home')
-            else if(pathname ==="/soloprojects")setActiveItem('Solo')
-            else if(pathname ==="/collaborations")setActiveItem('Collaborations')
-
-        }
-
-    
-    console.log('Anything')
+        if(pathname ==="/")setActiveItem('Home')
+        else if(pathname ==="/soloprojects")setActiveItem('Solo')
+        else if(pathname ==="/collaborations")setActiveItem('Collaborations')  
     },[pathname])
     return (
         <div className="flex justify-between px-4 py-3 my-3 font-poppins">
