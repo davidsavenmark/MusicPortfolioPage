@@ -20,9 +20,9 @@ const Home = ({endpoint}) => {
         
         
       </h5>
-      <h6 className='my-3 font-small font-poppins text-white dark:text-black'>Go to 'Solo' for a quick preview of what I've been working on.</h6>
+      <h6 className='my-3 font-small font-poppins text-white dark:text-black'>Go to Solo for a quick preview of what I have been working on.</h6>
       <div className='p-4 my-5 flex-grow' style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem' }}>
-        <h6 className='my-3 font-bold text-xl tracking-wide flex justify-center text-white dark:text-black'>What I'm doing</h6>
+        <h6 className='my-3 font-bold text-xl tracking-wide flex justify-center text-white dark:text-black'>What I do</h6>
         <div className='grid lg:grid-cols-2 gap-6'>
           {services.map(service => (
             <div className='lg:col-span-1 bg-gray-800 dark:bg-slate-100 rounded-lg text-white dark:text-black shadow-lg'>
