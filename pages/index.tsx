@@ -10,22 +10,20 @@ const Home = ({endpoint}) => {
   
   return (
    
-    <div className='p-4 flex flex-col px-6 pt-1 flex-grow'>
-      <h5 className='my-3 font-medium font-poppins text-white dark:text-black'>
+    <div className='p-4 flex flex-col px-6 pt-1 flex-grow' >
+      <h5 className='my-3 font-medium font-poppins text-white dark:text-black' >
         The second EP is in the works and I can with confidence say that the whole sound is just better.
         Every song sounds like it could be released by itself.
         The drums are thicker, sound is overall more up-lifting. These songs comes from older arrangements
         that I could not just leave unfinished. There are other genres I would like to move
         towards in the future but for now, this next EP will be another step closer to what Sinemark is about.
-        
-        
       </h5>
       <h6 className='my-3 font-small font-poppins text-white dark:text-black'>Go to Solo for a quick preview of what I have been working on.</h6>
-      <div className='p-4 my-5 flex-grow' style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem' }}>
-        <h6 className='my-3 font-bold text-xl tracking-wide flex justify-center text-white dark:text-black'>What I do</h6>
-        <div className='grid lg:grid-cols-2 gap-6'>
-          {services.map(service => (
-            <div className='lg:col-span-1 bg-gray-800 dark:bg-slate-100 rounded-lg text-white dark:text-black shadow-lg'>
+      <div className='p-4 my-5 flex-grow' style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem' }} >
+        <h6 className='my-3 font-bold text-xl tracking-wide flex justify-center text-white dark:text-black' >What I do</h6>
+        <div className='grid lg:grid-cols-2 gap-6' >
+          {services.map(service=> (
+            <div className='lg:col-span-1 bg-gray-800 dark:bg-slate-100 rounded-lg text-white dark:text-black shadow-lg' key={service.id}>
               <ServiceCard service={service}/>
             </div>
           ))}

@@ -7,4 +7,5 @@ export interface IService{
     title:string,
     about:string,
     Icon: IconType,
+    id: Key
 }
