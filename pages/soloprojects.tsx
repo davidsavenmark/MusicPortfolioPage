@@ -140,7 +140,7 @@ const soloprojects = () => {
           Preview of some songs from the next EP
         </p>
         <div className="flex justify-center">
-        <div className='lg:col-span-1 bg-gradient-to-r from-red-200 to-cyan-100 rounded-2xl flex justify-center w-100'>
+        <div className='lg:col-span-1 bg-gradient-to-r from-red-200 to-cyan-100 rounded-2xl flex justify-center w-80'>
             <iframe
               width="500"
               height="300"

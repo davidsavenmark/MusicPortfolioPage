@@ -10,7 +10,7 @@ export const useSidebar = () => {
     };
 
     useEffect(() => {
-        setActiveText(theme === "light" ? "Dark" : "Light");
+        setActiveText(theme === "light" ? "Light" : "Dark");
     }, [theme])
 
     return { changeTheme, activeText }

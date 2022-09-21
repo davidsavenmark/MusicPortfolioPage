@@ -11,7 +11,7 @@ const Sidebar = () => {
     return (
         <>
             <img
-                src="https://scontent-arn2-1.xx.fbcdn.net/v/t39.30808-6/277350139_338827658285184_8942894879981920547_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hRToecrtXy4AX-qwpj5&_nc_ht=scontent-arn2-1.xx&oh=00_AT9C1uowSNSijtji6DMSUpgA3iN1oM9kscyUIe1c3byg7A&oe=6312AE36"
+                src="../images/sinemarklogo.jpeg"
                 alt="user-avatar"
                 className='w-32 h-32 rounded-full mx-auto shadow-lg shadow-black'
             />
@@ -25,18 +25,18 @@ const Sidebar = () => {
             <a href="https://open.spotify.com/album/4k2IYJ8yKjtFiZjLpviF37?si=3i8_IvRmT8yb8C_wT_9ipA&fbclid=IwAR1KfxEiuK99QmYyNuJvFr52_VUa_mku8urVRQHmStPqL2oAuxW2JdsqHzc&nd=1" 
             target="_blank" 
             rel="noreferrer">
-                <p className='px-2 py-1 my-3 bg-gray-300 opacity-80 rounded-full cursor-pointer font-poppins hover:scale-105 shadow-lg shadow-indigo-300 hover:text-green-600 text-black dark:text-black'>
+                <p className='px-2 py-1 my-3 bg-gray-300 opacity-80 rounded-full cursor-pointer font-poppins hover:scale-105 shadow-lg shadow-indigo-500 hover:text-red-600 text-black dark:text-black '>
                     Stream now
                 </p>
             </a>
 
             {/*Socials*/}
             <div>
-                <p className='flex items-center m-5 justify-evenly shadow-lg shadow-orange-200 rounded-full'>
+                <p className='flex items-center m-5 justify-evenly shadow-lg shadow-orange-300 rounded-full'>
                     <a href="https://open.spotify.com/album/4k2IYJ8yKjtFiZjLpviF37?si=3i8_IvRmT8yb8C_wT_9ipA&fbclid=IwAR1KfxEiuK99QmYyNuJvFr52_VUa_mku8urVRQHmStPqL2oAuxW2JdsqHzc&nd=1" 
                     target="_blank" 
                     rel="noreferrer">
-                        <ImSpotify className='w-6 h-8 hover:scale-125 text-green-600' />
+                        <ImSpotify className='w-6 h-8 hover:scale-125 text-green-600 ' />
                     </a>
                     <a href="https://www.youtube.com/watch?v=IotBQAzTMCc&list=PL7T9moZCZP_nkMsW9c2VtL-7JHGmv73LP" 
                         target="_blank" 

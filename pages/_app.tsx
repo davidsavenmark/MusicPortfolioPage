@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
         <div className='h-full col-span-12 text-base text-center lg:col-span-3 p-4 overflow-hidden'>
           <Sidebar />
         </div>
-        <div className='lg:col-span-9 my-7 bg-slate-900 dark:bg-gradient-to-r from-gray-200 to-orange-200 rounded-3xl col-span-12 overflow-hidden shadow-md shadow-black'>
+        <div className='lg:col-span-9 my-7 bg-slate-900 dark:bg-gradient-to-r from-orange-200 to-gray-400 rounded-3xl col-span-12 overflow-hidden shadow-md shadow-black'>
           <Navbar />
           <Component {...pageProps} />
         </div>
