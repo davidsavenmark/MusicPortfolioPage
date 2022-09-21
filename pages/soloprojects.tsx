@@ -24,7 +24,7 @@ const soloprojects = () => {
             }}>
             <div className='lg:col-span-1 bg-gradient-to-r from-green-300 to-indigo-200 rounded-lg'>
               <iframe
-                width="300"
+                width="280"
                 height="260"
                 src="https://www.youtube.com/embed/IotBQAzTMCc"
                 title="YouTube video player"
@@ -44,7 +44,7 @@ const soloprojects = () => {
             }}>
             <div className='lg:col-span-1 bg-gradient-to-r from-orange-300 to-cyan-200 rounded-lg'>
               <iframe
-                width="300"
+                width="280"
                 height="260"
                 src="https://www.youtube.com/embed/6P_t2ypUtRY"
                 title="YouTube video player"
@@ -65,7 +65,7 @@ const soloprojects = () => {
             }}>
             <div className='lg:col-span-1 bg-gradient-to-r from-red-300 to-indigo-200 rounded-lg'>
               <iframe
-                width="300"
+                width="280"
                 height="260"
                 src="https://www.youtube.com/embed/T9WNR_VyH_w"
                 title="YouTube video player"
@@ -85,7 +85,7 @@ const soloprojects = () => {
             }}>
             <div className='lg:col-span-1 bg-gradient-to-r from-indigo-300 to-green-300 rounded-lg'>
               <iframe
-                width="300"
+                width="280"
                 height="260"
                 src="https://www.youtube.com/embed/GX97ehRhMPo"
                 title="YouTube video player" frameBorder="0"
@@ -104,7 +104,7 @@ const soloprojects = () => {
             }}>
             <div className='lg:col-span-1 bg-gradient-to-r from-green-300 to-orange-300 rounded-lg'>
               <iframe
-                width="300"
+                width="280"
                 height="260"
                 src="https://www.youtube.com/embed/AKj_Ee8TRkA"
                 title="YouTube video player" frameBorder="0"
@@ -123,7 +123,7 @@ const soloprojects = () => {
             }}>
             <div className='lg:col-span-1 bg-gradient-to-r from-gray-300 to-red-300 rounded-lg '>
               <iframe
-                width="300"
+                width="280"
                 height="260"
                 src="https://www.youtube.com/embed/x03ys2h3lr8"
                 title="YouTube video player" frameBorder="0"
@@ -142,7 +142,7 @@ const soloprojects = () => {
         <div className="flex justify-center">
         <div className='lg:col-span-1 bg-gradient-to-r from-red-200 to-cyan-100 rounded-2xl flex justify-center w-80'>
             <iframe
-              width="500"
+              width="400"
               height="300"
               src="https://www.youtube.com/embed/gk058FsRgNw"
               title="YouTube video player" frameBorder="0"

@@ -17,7 +17,7 @@ const collaborations = () => {
             }}>
             <div className='lg:col-span-1 bg-gradient-to-r from-green-300 to-indigo-200 rounded-lg'>
               <iframe
-                width="300"
+                width="280"
                 height="260"
                 src="https://www.youtube.com/embed/junhqJnucG4"
                 title="YouTube video player"
@@ -39,7 +39,7 @@ const collaborations = () => {
 
             <div className='lg:col-span-1 bg-gradient-to-r from-orange-300 to-cyan-200 rounded-lg'>
               <iframe
-                width="300"
+                width="280"
                 height="260"
                 src="https://www.youtube.com/embed/_uaec22kcqE"
                 title="YouTube video player"
@@ -60,7 +60,7 @@ const collaborations = () => {
             }}>
             <div className='lg:col-span-1 bg-gradient-to-r from-red-300 to-indigo-200 rounded-lg'>
               <iframe
-                width="300"
+                width="280"
                 height="260"
                 src="https://www.youtube.com/embed/AZXxxjlAb24"
                 title="YouTube video player"
@@ -81,7 +81,7 @@ const collaborations = () => {
             }}>
             <div className='lg:col-span-1 bg-gradient-to-r from-indigo-300 to-gray-300 rounded-lg'>
               <iframe
-                width="300"
+                width="280"
                 height="260"
                 src="https://www.youtube.com/embed/BqhJuMLOI2E"
                 title="YouTube video player" frameBorder="0"
