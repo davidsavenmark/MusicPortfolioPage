@@ -25,7 +25,7 @@ const Sidebar = () => {
             <a href="https://open.spotify.com/album/4k2IYJ8yKjtFiZjLpviF37?si=3i8_IvRmT8yb8C_wT_9ipA&fbclid=IwAR1KfxEiuK99QmYyNuJvFr52_VUa_mku8urVRQHmStPqL2oAuxW2JdsqHzc&nd=1" 
             target="_blank" 
             rel="noreferrer">
-                <p className='px-2 py-1 my-3 bg-gray-300 opacity-80 rounded-full cursor-pointer font-poppins hover:scale-105 shadow-lg shadow-indigo-500 hover:text-red-600 text-black dark:text-black '>
+                <p className='px-2 py-1 my-3 bg-gray-300 opacity-80 rounded-full cursor-pointer font-poppins hover:scale-105 shadow-lg shadow-indigo-500 hover:text-red-500 text-black dark:text-black '>
                     Stream now
                 </p>
             </a>
@@ -62,14 +62,14 @@ const Sidebar = () => {
                 <button 
                 className='bg-gray-300 opacity-80 w-9/12 
                 rounded-full py-1 px-5 my-2 focus:outline-none 
-                hover:scale-105 shadow-md shadow-black hover:text-green-600 text-black dark:text-black' 
+                hover:scale-105 shadow-md shadow-black hover:text-red-500 text-black dark:text-black' 
                 onClick={() => window.open('mailto:sinemark1@gmail.com')}>
                     Contact Me
                 </button>
 
                 <button onClick={changeTheme} className='bg-gray-300 opacity-80 w-9/12 
                 rounded-full py-1 px-5 my-2 focus:outline-none 
-                hover:scale-105 shadow-md shadow-black hover:text-green-600 text-black dark:text-black'>
+                hover:scale-105 shadow-md shadow-black hover:text-red-500 text-black dark:text-black'>
                    {activeText}
                 </button>
             </div>
